@@ -1,10 +1,26 @@
-# Text Classification 
+# Automated-Response-Classification-System using NLP
 
 ## Problem Statement
 After the rise in use of social media platforms, many people have started commenting their thoughts on these platform. Segregating positive and negative comments have become an important task.
 
 ## Solution Proposed
 We will use different models like LSTM and GRU to train our model on the provided data.
+
+## Approach
+
+- The Data to be used is Sentiment140 dataset with 1.6 million tweets.
+
+- The text processing would be done using torchtext or spacy. Reference.
+
+- For feature engineering or Converting to embedding, we will use GLoVE or Word2Vec. Reference.
+
+- The model to be used would be LSTM, GRU, and encode or decoder models.
+
+- Compare different model performances.
+
+## Use Case
+
+The models that we are training can be inferenced on the Customer Response about the course which would reduce the work load of mentors and they can target only people with a negative response and solve their query.
 
 ## Tech Stack Used
 1. Python 
