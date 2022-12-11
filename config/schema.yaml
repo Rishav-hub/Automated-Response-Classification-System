@@ -1,0 +1,19 @@
+columns:
+  - target: int64
+  - ids: int64
+  - date: object
+  - flag: object
+  - user: object
+  - text: object
+ 
+
+required_columns:
+  - text
+  - target
+
+
+  
+
+
+
+  
